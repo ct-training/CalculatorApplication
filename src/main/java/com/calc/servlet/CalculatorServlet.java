@@ -42,9 +42,10 @@ public class CalculatorServlet extends HttpServlet {
 		String n2 = request.getParameter("num2");
 		System.out.println(n2);
 		String opt = request.getParameter("operator");
-		out.write("<html> <body> <h2> Result is: ");
+		//out.write("<html> <body> <h2> Result is: ");
+		out.write("Result is: ");
 		out.write(" " + calObj.performAction(opt, n1, n2));
-		out.write("</h2> </body></html>");
+		//out.write("</h2> </body></html>");
 		
 	}
 
