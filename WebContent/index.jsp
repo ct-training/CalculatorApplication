@@ -13,13 +13,13 @@
 	<form method="get" action="/CalculatorApplication/calServlet">
 		<table>
 			<tr>
-				<td>Number1:</td>
+				<td>Number 1:</td>
 				<td><input type="text" name="num1" />
 			</tr>
 
 
 			<tr>
-				<td>Number2:</td>
+				<td>Number 2:</td>
 				<td><input type="text" name="num2" />
 			</tr>
 
